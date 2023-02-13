@@ -1,8 +1,0 @@
-spring:
-  cloud:
-    config:
-      username: configadmin
-      password: welcome1
-  config:
-    import: 
-      - configserver:http://localhost:9099
