@@ -12,3 +12,9 @@ spring:
   generate-ddl: false
   hibernate:
     ddl-auot: update
+eureka:
+ client:
+  registry-with-eureka: true
+  fetch-registry: false
+  service-url:
+   defaultZone: http://localhost:8090/eureka
